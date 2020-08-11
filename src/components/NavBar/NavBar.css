@@ -1,0 +1,22 @@
+.navbar{
+    background-color: inherit;
+}
+
+.nav-link{
+    color: lightgray;
+}
+.nav-link:hover{
+    color: lightblue;
+}
+
+.underline{
+    margin: 0 auto;
+    height: 2px;
+    width: 10%;
+    transition: 0.2s ease-out;
+}
+
+.nav-item:hover .underline{
+    background-color: #8cb3d9;
+    width:100%;
+}
