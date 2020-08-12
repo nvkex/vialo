@@ -1,0 +1,60 @@
+.illustration{
+    width: 100%;
+}
+
+.intro{
+    margin: 100px 0;
+}
+
+.vialo-desc{
+    font-size: 20px;
+    margin: 0 60px;
+}
+
+.detail-cards{
+    background-color: white;
+    margin: 200px 0;
+    color:black;
+}
+
+.detail-cards .row{
+    padding: 180px 0;
+}
+
+.detail-cards .row h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.detail-cards .row p{
+    font-size: 18px;
+}
+
+.end-card{
+    border-radius: 60px 60px 0 0;
+    padding: 100px 0 !important;
+    background-color: rgba(173, 216, 230, 0.171);
+}
+
+.end-card .end-img{
+    padding:10px;
+    width: 40vw;
+    margin: auto;
+}
+
+.signup-btn{
+    transition: 0.4s;
+    color:white;
+    font-size:18px;
+    outline:none;
+    border:none;
+    background-color: #0d1a26;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.signup-btn:hover{
+    background-color: #0d1a26d8;
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,.2) !important;
+}
