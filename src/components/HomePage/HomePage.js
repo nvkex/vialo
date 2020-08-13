@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import NavBar from '../NavBar/NavBar';
+import Footer from '../Footer/Footer';
 
 import IL1 from '../../static/undraw_a_better_world_9xfd.svg';
 import IL2 from '../../static/undraw_Popular_re_mlfe.svg';
@@ -23,7 +24,7 @@ class HomePage extends Component {
                         <div className="col-sm-8">
                             <div className="container my-4">
                                 <h1 className="display-4 text-white text-center"><b>Connect with the world</b></h1>
-                                <p className="text-muted text-center vialo-desc">
+                                <p className="text-center vialo-desc">
                                     Vialo is a freeware instant messaging app primarily used to create communities for individuals, groups, businesses or just to hangout online.
                                 </p>
                             </div>
@@ -44,7 +45,7 @@ class HomePage extends Component {
                                     An invite-only place with plenty of room to talk
                                 </h1>
                                 <p className="text-muted my-4">
-                                    Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.
+                                    Vialo servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.
                                 </p>
                             </div>
                         </div>
@@ -55,7 +56,7 @@ class HomePage extends Component {
                                     Where hanging out is easy
                                 </h1>
                                 <p className="text-muted my-4">
-                                    Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
+                                    Grab a seat in the chat when you’re free. Friends in your server can see you’re around and instantly pop in to talk.
                                 </p>
                             </div>
                             <div className="col-sm-3">
@@ -89,6 +90,7 @@ class HomePage extends Component {
 
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
