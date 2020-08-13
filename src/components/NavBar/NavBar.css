@@ -4,10 +4,10 @@
 }
 
 .nav-link{
-    color: lightgray;
+    color: white;
 }
 .nav-link:hover{
-    color: lightblue;
+    color: lightgrey;
 }
 
 .underline{
