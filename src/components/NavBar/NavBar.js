@@ -7,7 +7,7 @@ const NavBar = () => {
         <div>
             <nav className="navbar navbar-expand-lg">
                 <a className="navbar-brand" href="/">
-                    Vialo
+                    <span className="text-light">Vialo</span>
                     {/* Insert Logo inside an img tag */}
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
