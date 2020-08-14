@@ -21,42 +21,48 @@ const Footer = () => {
                     <div className="col-sm-2">
                         <h6>Product</h6>
                         <ul>
-                            <li><a>Why Vialo</a></li>
-                            <li><a>Inspiration</a></li>
+                            <li><a href="/">Why Vialo</a></li>
+                            <li><a href="/">Inspiration</a></li>
                         </ul>
                     </div>
 
                     <div className="col-sm-2">
                         <h6>Company</h6>
                         <ul>
-                            <li><a>About</a></li>
-                            <li><a>Jobs</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Jobs</a></li>
                         </ul>
                     </div>
 
                     <div className="col-sm-2">
                         <h6>Resources</h6>
                         <ul>
-                            <li><a>Support</a></li>
-                            <li><a>Safety</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Feedback</a></li>
+                            <li><a href="/">Support</a></li>
+                            <li><a href="/">Safety</a></li>
+                            <li><a href="/">Blog</a></li>
+                            <li><a href="/">Feedback</a></li>
                         </ul>
                     </div>
 
                     <div className="col-sm-2">
                         <h6>Policies</h6>
                         <ul>
-                            <li><a>Terms</a></li>
-                            <li><a>Privacy</a></li>
+                            <li><a href="/">Terms</a></li>
+                            <li><a href="/">Privacy</a></li>
                         </ul>
                     </div>
 
                 </div>
-                <hr className="mx-4" style={{ backgroundColor: 'grey' }} />
+                <hr style={{ backgroundColor: 'grey', width: '83%' }} />
                 <div className="row">
-                    Vialo
-          </div>
+                    <div className="col-sm-6">
+                        <h4>Vialo</h4>
+                    </div>
+
+                    <div className="col-sm-6">
+                        <h4 className="text-right">Open Vialo</h4>
+                    </div>
+                </div>
             </footer>
         </div>
     )

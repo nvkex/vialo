@@ -1,5 +1,5 @@
 .row{
-    padding: 60px 100px;
+    padding: 60px 140px;
 }
 
 footer{
@@ -8,11 +8,20 @@ footer{
 }
 
 footer h3,h4,h5,h6{
-    color: rgb(108,99,255);
+    color: rgba(108,99,255,0.8);
 }
 
 .social-list p{
     font-size: 14x;
+}
+
+.row ul{
+    padding-left: 0;
+    list-style: none;
+    list-style-type: none;
+}
+.row ul li{
+    margin-top: 10px;
 }
 
 .row li a{
