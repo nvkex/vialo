@@ -27,3 +27,20 @@ footer h3,h4,h5,h6{
 .row li a{
     color: lightgrey;
 }
+
+.start-btn{
+    transition: 0.4s;
+    color:white;
+    font-size:18px;
+    outline:none;
+    border:none;
+    background-color: #183046;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.start-btn:hover{
+    background-color: #21415f;
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,.2) !important;
+}

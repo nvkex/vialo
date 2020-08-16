@@ -60,7 +60,11 @@ const Footer = () => {
                     </div>
 
                     <div className="col-sm-6">
-                        <h4 className="text-right">Open Vialo</h4>
+                        <h4 className="text-right">
+                            <a href="/login">
+                                <button class = "start-btn">Open Vialo</button>
+                            </a>
+                        </h4>
                     </div>
                 </div>
             </footer>
