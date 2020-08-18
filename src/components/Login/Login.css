@@ -1,0 +1,66 @@
+.login{
+    background-image: url("../../static/signup-login-bg3.jpg");
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .form-container{
+      margin: auto;
+  }
+  
+  .form-container form{
+      min-width: 400px;
+      width:500px;
+      box-shadow: 0 .4rem 1rem rgba(0,0,0,.6);
+      border-radius: 10px;
+      margin: auto;
+      padding: 30px 40px;
+      background-color: rgb(39, 37, 53);
+      
+  }
+  
+  .form-element{
+      margin:20px auto;
+  }
+  
+  .form-element .input-label{
+      padding:2px 0 0px 0;
+      color:rgb(181, 178, 211);
+      letter-spacing: 1px;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin: auto;
+  }
+  
+  .form-element .input-box input{
+      border-radius: 4px;
+      color: white;
+      padding: 8px 6px;
+      border: 2px solid rgba(14, 14, 14,0.3);
+      outline: none;
+      width: 100%;
+      background-color: rgb(30, 29, 41);
+  }
+  
+  .form-element .input-box input:focus{
+      border: 2px solid #284f74;
+  }
+  
+  .form-element .input-box input[type="submit"]{
+      background-color: #284f74;
+      padding: 10px 6px;
+      border:none;
+  }
+  
+  .form-element .input-box input[type="submit"]:hover{
+      background-color: #214261;
+  }
+
+  .form-element small a{
+    color: #407bb3;
+  }
